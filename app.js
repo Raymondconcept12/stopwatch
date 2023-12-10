@@ -22,8 +22,8 @@ function stopbtn() {
 
 function resetbtn() {
     clearInterval (Interval)
-    let seconds = '00'
-    let tens = '00'
+    seconds = '00'
+    tens = '00'
     tensText.textContent = tens
     secondsText.textContent = seconds
 }
